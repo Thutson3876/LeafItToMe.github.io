@@ -1,0 +1,29 @@
+:root{
+    --black-tea-color: #1f1612;
+    --green-tea-color:  #C2D4A8;
+    --herbal-tea-color: #D6B588;
+    --logo-color: #A3B18A;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot img {
+    width: 100%;
+  }
+#black-tea{
+    background-color: var(--black-tea-color);
+}
+
+#green-tea{
+    background-color: var(--green-tea-color);
+}
+
+#herbal-tea{
+    background-color: var(--herbal-tea-color);
+}
