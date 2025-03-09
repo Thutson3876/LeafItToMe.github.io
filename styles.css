@@ -160,6 +160,21 @@
     transition: 0.3s;
   }
 
+  .hidden-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 50%;
+    border-color: var(--hr-color);
+    border: none;
+    transition: 0.3s;
+  }
+
+  .hidden-button:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 50%;
+    border: 2px solid var(--hr-color);
+    transition: 0.3s;
+  }
+
   .row {
     display: flex;
   }
@@ -188,6 +203,19 @@
     padding: 10px;
   }
 
+  #suggestion-btn {
+    font-weight: strong;
+  }
+
   #suggestion{
     font-weight: strong;
+  }
+
+  #suggestion-desc{
+    font-weight: lighter;
+  }
+
+  #suggestion-img{
+    display: none;
+    content: center;
   }

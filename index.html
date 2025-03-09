@@ -8,8 +8,7 @@
         <link href="styles.css" rel="stylesheet">
         <link href="normalize.css" rel="stylesheet">
         <link href="teastyles.css" rel="stylesheet">
-        <script src="suggestion.js">
-        </script>
+        
     </head>
     <body class="content">
         <header class="topnav">
@@ -54,14 +53,21 @@
 
                 <h2>Find the right tea for you!</h2>
                 
-                <button class="button" onclick="generateSuggestion()">TEA SUGGESTION</button>
+                <button class="button" id="suggestion-btn">TEA SUGGESTION</button>
 
                 <div style="height:20px;"></div>
                 <hr>
                 <div style="height:20px;"></div>
 
-                <h1><a id="suggestion"></a></h1>
+                <h1 style="content: center;">
+                    <img id="suggestion-img" alt="Suggested Tea">
+                    <a id="suggestion"></a>
+                    <p id="suggestion-desc"></p>
+                
+                </h1>
 
+                <script type="text/javascript" src="suggestion.js">
+            </script>
             </div>
             <div class="column side"></div>
           </div>
