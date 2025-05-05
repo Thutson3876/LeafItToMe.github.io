@@ -13,12 +13,12 @@ This project is split into two parts: server & client. Setup for both is detaile
 ## Server Startup
 
 1. Run 'cd server' in the terminal to make sure that you are in the right directory.
-2. Run 'npm start' in the terminal to launch the server.\
+2. Run 'npm start' in the terminal to launch the server.
 
 ## Client Setup
 
 1. Ensure that all packages in the package.json are installed.
-2. Ensure that the corresponding server is running on your current device.
+2. Ensure that the corresponding server can run on your current device.
 
 ## Client Startup
 
