@@ -1,0 +1,52 @@
+:root {
+  --leafgreen: #A3B18A;
+  --earthybrown: #6B4226;
+  --creamybeige: #F5E8C7;
+  --mutedsage: #D4CFC4;
+  --ambergold: #C98E5D;
+  --deepcharcoal: #3A3A3A;
+  --header-color: #282828;
+  --emphasis-color: #3A3A3A;
+  --p-color: #282828;
+  --button-color: #f5f5f5;
+  --hr-color: #A3B18A;
+  --nav-background: #f5f5f5;
+  --body-background: #f5f5f5;
+  --footer-background: #f5f5f5;
+}
+
+.emphasis {
+  text-align: center;
+  font-style: italic;
+}
+
+.cover {
+  display: block;
+  margin: 0;
+  height: 30vmax;
+  width: 100%;
+  object-fit: cover;
+  object-position: 10 0;
+}
+
+hr {
+  height: 0;
+  border: none;
+  /*background: transparent;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;*/
+  border-top: 2px solid var(--hr-color); 
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.btn:focus,.btn:active {
+  background-color: #A3B18A !important;
+  border-color: white !important;
+}
