@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6815b5a0d182bf7d6c7ec6b6"
+  },
+  "name": "Monkey Picked Oolong",
+  "type": "Oolong",
+  "desc": "Delicious and fresh!",
+  "rating": 4.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816e5b16a3d8609dd2cb7c1"
+  },
+  "name": "Jasmine",
+  "type": "Green",
+  "desc": "Iroh's favorite.",
+  "rating": 4.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816e5e36a3d8609dd2cb7c2"
+  },
+  "name": "Earl Grey",
+  "type": "Black",
+  "desc": "Staple of the London Fog latte",
+  "rating": 4.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816e6126a3d8609dd2cb7c3"
+  },
+  "name": "Darjeeling",
+  "type": "Black",
+  "desc": "Pairs well with honey!",
+  "rating": 3.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816e62e6a3d8609dd2cb7c4"
+  },
+  "name": "Peppermint",
+  "type": "Herbal",
+  "desc": "Soothes an upset stomach",
+  "rating": 3.5,
+  "__v": 0
+}]

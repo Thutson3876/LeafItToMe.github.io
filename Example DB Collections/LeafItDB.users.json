@@ -1,0 +1,258 @@
+[{
+  "_id": {
+    "$oid": "68167b5d559c28514c4b99c1"
+  },
+  "username": "potato3",
+  "password": "$2b$10$v71C/K3vdmCZ3lkQn5JoH.GcoWBD/fv5CMDxUDihGkZiIktYxbXsi",
+  "teas": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816b71df4d886b788be9148"
+  },
+  "username": "dbsajdbak",
+  "password": "$2b$10$VvRe/dn0EbP2MOMT2AF3hefSXRVeySsZSSIycgxjQVWDn0vz01jyK",
+  "teas": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6816b90df4d886b788be914b"
+  },
+  "username": "potato4",
+  "password": "$2b$10$Pkpl1DeVN6XJMU7Digd/cu5TA3JvoSVW2PbfVrxE0ZCsLG/szvPZ6",
+  "teas": [
+    {
+      "_id": {
+        "$oid": "6816e62e6a3d8609dd2cb7c4"
+      },
+      "name": "Peppermint",
+      "type": "Herbal",
+      "desc": "Soothes an upset stomach",
+      "rating": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6817f089a5d121e96a836d1e"
+  },
+  "username": "potato5",
+  "password": "$2b$10$rj2tbcHfkqyVZksXXqZgbeKvTIj/7c1obHG13QbNfNwDjMjrdjf.m",
+  "teas": [
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68185767500a04e5cb787923"
+  },
+  "username": "potato1",
+  "password": "$2b$10$xXg8GvP9YhW9Vo25Nw91OezNHIZTA71JExO/S5TUX0K1FiYx5sfl6",
+  "teas": [
+    {
+      "_id": {
+        "$oid": "6816e6126a3d8609dd2cb7c3"
+      },
+      "name": "Darjeeling",
+      "type": "Black",
+      "desc": "Pairs well with honey!",
+      "rating": 3.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e62e6a3d8609dd2cb7c4"
+      },
+      "name": "Peppermint",
+      "type": "Herbal",
+      "desc": "Soothes an upset stomach",
+      "rating": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5e36a3d8609dd2cb7c2"
+      },
+      "name": "Earl Grey",
+      "type": "Black",
+      "desc": "Staple of the London Fog latte",
+      "rating": 4.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5b16a3d8609dd2cb7c1"
+      },
+      "name": "Jasmine",
+      "type": "Green",
+      "desc": "Iroh's favorite.",
+      "rating": 4.7,
+      "__v": 0
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6818f077f5d94011a167500e"
+  },
+  "username": "potato6",
+  "password": "$2b$10$qPGEz/.0ncZ6kFsJjJdMHemPHgebV/A8V5PcKKqeXXp5PTPMJqOra",
+  "teas": [
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5b16a3d8609dd2cb7c1"
+      },
+      "name": "Jasmine",
+      "type": "Green",
+      "desc": "Iroh's favorite.",
+      "rating": 4.7,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5e36a3d8609dd2cb7c2"
+      },
+      "name": "Earl Grey",
+      "type": "Black",
+      "desc": "Staple of the London Fog latte",
+      "rating": 4.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e6126a3d8609dd2cb7c3"
+      },
+      "name": "Darjeeling",
+      "type": "Black",
+      "desc": "Pairs well with honey!",
+      "rating": 3.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e62e6a3d8609dd2cb7c4"
+      },
+      "name": "Peppermint",
+      "type": "Herbal",
+      "desc": "Soothes an upset stomach",
+      "rating": 3.5,
+      "__v": 0
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68191382568a195e0db313ec"
+  },
+  "username": "potatoman",
+  "password": "$2b$10$A5g1y8fbO/Y5ES96cCvgnOQvsxDO3tslvwhuKJzaernfurL9Tp45a",
+  "teas": [
+    {
+      "_id": {
+        "$oid": "6815b5a0d182bf7d6c7ec6b6"
+      },
+      "name": "Monkey Picked Oolong",
+      "type": "Oolong",
+      "desc": "Delicious and fresh!",
+      "rating": 4.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e6126a3d8609dd2cb7c3"
+      },
+      "name": "Darjeeling",
+      "type": "Black",
+      "desc": "Pairs well with honey!",
+      "rating": 3.9,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5e36a3d8609dd2cb7c2"
+      },
+      "name": "Earl Grey",
+      "type": "Black",
+      "desc": "Staple of the London Fog latte",
+      "rating": 4.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e62e6a3d8609dd2cb7c4"
+      },
+      "name": "Peppermint",
+      "type": "Herbal",
+      "desc": "Soothes an upset stomach",
+      "rating": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6816e5b16a3d8609dd2cb7c1"
+      },
+      "name": "Jasmine",
+      "type": "Green",
+      "desc": "Iroh's favorite.",
+      "rating": 4.7,
+      "__v": 0
+    }
+  ],
+  "__v": 0
+}]
