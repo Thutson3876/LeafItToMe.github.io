@@ -24,3 +24,9 @@ This project is split into two parts: server & client. Setup for both is detaile
 
 1. Run 'cd client' in the terminal to make sure that you are in the right directory.
 2. Run 'npm start' in the terminal to launch the server.
+
+# Home
+
+Once the server and client are up and running, you should be taken to the /home page where you can navigate around the site!
+
+Create an account and start adding teas to your collection! Once you have some, try generating a custom tea suggestion for yourself!
