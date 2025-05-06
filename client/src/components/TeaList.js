@@ -196,6 +196,9 @@ function TeaList() {
                   delete={deleteFromList} add={addTeaToUser} />
             ))
          }
+
+         <Button className="float-start" href="/add">Add</Button>
+         <br></br>
          <br></br>
          
       </>

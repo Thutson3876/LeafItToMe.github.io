@@ -41,11 +41,15 @@ function AddTea() {
 
 
       await addTea(tea);
-      goBack();
+      goNext();
    }
 
    function goBack() {
       navigate("/");
+   }
+
+   function goNext(){
+      navigate("/teas");
    }
 
    return (
