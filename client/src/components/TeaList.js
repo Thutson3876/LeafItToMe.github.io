@@ -16,6 +16,12 @@ function getToken() {
 
 async function getTeas() {
    console.log("Fetching teas...");
+   const token = getToken();
+   if(!token){
+      console.log("TOKEN IS NULL");
+      return null;
+   }
+
    const response = await fetch(teasApiEndpoint);
    if (response.ok) {
       console.log("OK.");
@@ -146,7 +152,7 @@ function TeaList() {
    useEffect(() => {
       async function getAllTeas() {
          const foundTeas = await getTeas();
-         if(foundTeas == null){
+         if(foundTeas == null || foundTeas.error){
             console.log("Teas is null!");
             navigate("/login");
             return;

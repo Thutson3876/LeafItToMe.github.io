@@ -1,8 +1,14 @@
 import { Form, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const apiEndpoint = "http://localhost:8000/api/teas";
+
+function getToken() {
+    const token = localStorage.getItem("token");
+ 
+    return token;
+}
 
 async function addTea(tea) {
    const response = await fetch(apiEndpoint, {
@@ -24,6 +30,19 @@ async function addTea(tea) {
 function AddTea() {
    const navigate = useNavigate();
    const [inputs, setInputs] = useState({ name: "", type: "", desc: "", rating: 1 });
+
+   useEffect(() => {
+          async function teaCheck() {
+             const token = getToken();
+             if(!token) {
+                console.log("Token is null!");
+                navigate("/login");
+                return;
+             }
+          }
+
+          teaCheck();
+       }, []);
 
    function handleChange(name, value) {
       setInputs(values => ({ ...values, [name]: value }));
